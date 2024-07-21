@@ -5,14 +5,12 @@ import { useLayoutEffect, useRef } from 'react';
 export default function ImgLoad ({ src, id, className, value }) {
     const [isLoaded, setIsLoaded] = useState(false)
     const [placeholderWidth, setPlaceholderWidth] = useState(0);
-    const [placeholderHeight, setPlaceholderHeight] = useState(0);
     const placeholderRef = useRef(null);
 
     useLayoutEffect(() => {
         if (placeholderRef.current) {
-            const { width, height } = placeholderRef.current.getBoundingClientRect();
+            const { width } = placeholderRef.current.getBoundingClientRect();
             setPlaceholderWidth(width);
-            setPlaceholderHeight(height);
         }
     }, []);
 
@@ -41,7 +39,7 @@ export default function ImgLoad ({ src, id, className, value }) {
                 />
             </div>
         )}
-        {isLoaded && ( 
+        {isLoaded && (
             <img
             onLoad={() => setIsLoaded(true)}
             src={src}
@@ -49,7 +47,7 @@ export default function ImgLoad ({ src, id, className, value }) {
             className={className}
             alt="img" />
         )}
-            
+
         </>
     );
 };

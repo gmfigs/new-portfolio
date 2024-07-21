@@ -7,7 +7,7 @@ const ImageSlider = ({ images }) => {
         const interval = setInterval(() => {
             setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
         }, 3500);
-    
+
         return () => clearInterval(interval);
     }, []);
 
@@ -17,17 +17,9 @@ const ImageSlider = ({ images }) => {
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-    const nextImage = () => {
-        setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    };
-
-    const previousImage = () => {
-        setCurrentImageIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
-    };
-
     return (
-        <div className='siscogImgContainer'> 
-            <img src={images[currentImageIndex]} alt="Slider Image" />
+        <div className='siscogImgContainer'>
+            <img src={images[currentImageIndex]} alt=""/>
             <div className='dotContainer'>
                 {images.map((images, index) => (
                     <div className={`dotStyles ${index === currentImageIndex ? 'active' : ''}`} key={index} onClick={() => goToSlide(index)}>•</div>

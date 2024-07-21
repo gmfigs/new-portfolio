@@ -7,17 +7,12 @@ import Siscog2 from "../../assets/siscog2.jpeg";
 import Siscog3 from "../../assets/siscog3.jpeg";
 import Siscog4 from "../../assets/siscog4.jpeg";
 import Siscog5 from "../../assets/siscog5.jpeg";
-import colorpalette from "../../assets/color-palette.png";
-import primaryinterfacecolors from "../../assets/primary-interface-colors.png";
-import ImgLoad from '../imgLoad/ImgLoad';
 import iconCover from "../../assets/iconCover.png";
 import iconLibrary from "../../assets/iconLibrary.png";
 import programming from "../../assets/programming.png";
 import designing from "../../assets/designing.png";
 import component1 from "../../assets/components1.png";
 import component2 from "../../assets/components2.png";
-import component3 from "../../assets/components3.png";
-import component4 from "../../assets/components4.png";
 
 const Siscog = () => {
     const images = [Siscog1, Siscog2, Siscog3, Siscog4, Siscog5];

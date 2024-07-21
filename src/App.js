@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import {Routes, Route } from 'react-router-dom';
 import "./App.css";
 import Home from './components/home/Home';
 import About from './components/about/About';
@@ -15,7 +14,7 @@ import ScrollUp from './components/scrollup/ScrollUp';
 import Header from './components/header/Header';
 import HoyBank from './components/hoyBank/HoyBank';
 import Siscog from './components/siscog/Siscog';
-import Airbnb from './components/airbnb/Airbnb';
+import Airbnb from './components/airbnb/airbnb';
 
 const App = () => {
   const currentPath = window.location.pathname;
