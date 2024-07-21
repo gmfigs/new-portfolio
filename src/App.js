@@ -14,6 +14,7 @@ import ScrollUp from './components/scrollup/ScrollUp';
 import Header from './components/header/Header';
 import HoyBank from './components/hoyBank/HoyBank';
 import Siscog from './components/siscog/Siscog';
+import Airbnb from './components/airbnb/Airbnb';
 
 const App = () => {
   const currentPath = window.location.pathname;
@@ -31,7 +32,7 @@ const App = () => {
           <>
           {currentPath === '/hoyBank' && <HoyBank />}
           {currentPath === '/siscog' && <Siscog />}
-          {currentPath === '/siscog' && <Siscog />}
+          {currentPath === '/airbnb' && <Airbnb />}
           </>
         ) : (
           <>
