@@ -1,0 +1,88 @@
+.nunito {
+    text-align: center;
+    font-size: 3rem;
+    color: #f56565;
+    margin-bottom: 20px;
+    }
+
+    .hugeicons--airbnb {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M12 18.775c-1.656-2-3-3.24-3-5.275s1.503-3.5 3.003-3.5S15 11.464 15 13.5s-1.344 3.275-3 5.275m0 0c-2 2.545-5.98 2.687-7.65 1.527c-1.671-1.16-1.695-3.562-.596-6.107c1.1-2.544 2.565-5.597 5.497-9.668C10.212 3.458 10.897 3 11.997 3M12 18.775c2 2.545 5.98 2.687 7.65 1.527c1.671-1.16 1.695-3.562.596-6.107c-1.1-2.544-2.565-5.597-5.497-9.668C13.788 3.458 13.103 3 12.003 3' color='%23000'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+    }
+
+    .gigantic-bottom {
+        margin-bottom: 5rem;
+    }
+
+    .airbnb-title {
+        font-size: 2rem;
+        color: var(--title-color);
+        margin-bottom: 0.5rem;
+        margin-top: 2rem;
+    }
+
+    .subtitle__text {
+        color: var(--text-color);
+    }
+
+    .btn {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #0c2a43;
+    border: 2px solid #0c2a43;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #0c2a43;
+        color: #ffffff;
+    }
+
+      /* Progress Bar */
+    .progress-bar {
+      background-color: #e0e0e0;
+      border-radius: 8px;
+      overflow: hidden;
+      height: 12px;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Progress */
+    .progress-container {
+        padding: 1rem 4rem 2em 0rem;
+    }
+
+    .progress {
+      background-color: #FF5A5F; /* Airbnb primary color */
+      height: 100%;
+      width: 0;
+      border-radius: 8px 0 0 8px;
+      transition: width 0.4s ease-in-out;
+    }
+
+    /* Animation */
+    @keyframes progressAnimation {
+      from {
+          width: 0;
+      }
+      to {
+          width: 40%; /* Example progress percentage */
+      }
+    }
+
+    .progress-bar .progress {
+      animation: progressAnimation 4s forwards;
+    }

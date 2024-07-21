@@ -1,0 +1,156 @@
+.siscog-color {
+    color: #FF7F00;
+}
+
+.siscog-bg {
+    background-color: #ff80000e;
+}
+
+.tasks-subtitle {
+    width: 77%;
+    margin-top:0;
+}
+
+.skills-content-list {
+    margin-top: 1.5rem;
+    font-size: 14px;
+}
+
+.grid-tasks {
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-template-rows: auto;
+}
+
+.tasks-text {
+    color: black;
+}
+
+.bold {
+    font-weight: 500 !important;
+}
+
+.tasks-text strong {
+    color: var(--text-color);
+}
+
+.under__title {
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.title-margin {
+    margin-bottom: 1rem;
+}
+
+.secondary-text {
+    font-weight: 400;
+}
+
+.sm-text {
+    font-size: 12px;
+    margin-bottom: -0.3rem;
+}
+
+.flex-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 0.5rem;
+
+}
+
+.tools-layout-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 20px;
+}
+
+.siscog-align-content {
+    display: flex;
+    align-items: center;
+    color: black;
+    column-gap: 0.5rem;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.no-padding-top {
+    padding: 0 2rem 0 2rem;
+}
+
+.no-bottom {
+    margin-bottom: 0;
+}
+
+.sm-bottom {
+    margin-bottom: 1rem;
+}
+
+.md-bottom {
+    margin-bottom: 1.5rem;
+}
+
+.bg-bottom {
+    margin-bottom: 2rem;
+}
+
+.no-top {
+    margin-top: 0;
+}
+
+.sm-top {
+    margin-top: 1rem;
+}
+
+.bg-top {
+    margin-top: 2rem;
+}
+
+.palette-img {
+    padding: 2rem 0rem;
+}
+
+.bullet-list {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    list-style-type: disc;
+    padding-left: 1rem;
+}
+
+.siscog-intro {
+    padding: 0rem 2rem 0 2rem;
+}
+
+.siscog-intro-padding {
+    padding-top: 6.5rem;
+}
+
+.portfolio-tag.siscog-color {
+    color: #FF7F00;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .siscog-intro-padding {
+        padding-top: 2rem;
+    }
+
+    .siscog-align-content {
+        align-items: flex-start;
+    }
+
+    .tools-layout-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-tasks {
+        grid-template-columns: 1fr;
+    }
+}
