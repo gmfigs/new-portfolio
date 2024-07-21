@@ -9,7 +9,8 @@ const ScrollUp = () => {
     else scrollUp.classList.remove("show-scroll");
   });
   return (
-    <a href="#" className="scrollup">
+    // eslint-disable-next-line jsx-a11y/anchor-is-valid
+    <a className="scrollup">
       <i className="uil uil-arrow-up scrollup__icon"></i>
     </a>
   );
