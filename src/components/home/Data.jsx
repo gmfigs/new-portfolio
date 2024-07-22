@@ -72,8 +72,7 @@ const Data = () => {
       repeat={Infinity}
     /></h3>
       <p className="home__description">
-         I'm a Designer based in the South of Portugal, skilled in Frontend Development.
-          Dedicated to crafting visually stunning and user-friendly interfaces.
+        I'm a multi-disciplinary developer and designer based in the South of Portugal, skilled in Frontend Development. Dedicated to crafting visually stunning and user-friendly interfaces.
       </p>
 
       <a href="#contact" className="button button--flex">

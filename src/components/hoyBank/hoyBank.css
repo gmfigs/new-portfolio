@@ -288,8 +288,8 @@
         grid-template-columns: 1fr !important;
         grid-column-gap: 1.5rem;
     }
-    
-}    
+
+}
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
@@ -301,8 +301,12 @@
         grid-column-gap: 1.5rem;
     }
 
+    .horizontal-grid {
+        grid-template-columns: 1fr;
+    }
+
     .grid-user-persona {
-        padding: 1.5rem 3rem !important; 
+        padding: 1.5rem 3rem !important;
     }
 
     .grid-ideation {

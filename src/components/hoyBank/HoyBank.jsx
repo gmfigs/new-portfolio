@@ -352,7 +352,7 @@ const HoyBank = () => {
                 <p className="portfolio-description"><strong>To delve deeper into the project, explore the website firsthand:</strong> <a href="https://hoy-bank.netlify.app/">https://hoy-bank.netlify.app</a></p>
                 <div className="horizontal-grid">
                     <ImgLoad value="1.75" className="hoyBank__img" id="L~Lg|h~qaeE1j[j[f6fkjZj[j[ay" src={mockup}/>
-                    <ImgLoad value="1.75" className="hoyBank__img" id="L~Lg|h~qaeE1j[j[f6fkjZj[j[ay" src={mockup2}/>
+                    <ImgLoad value="0.865" className="hoyBank__img" id="L~Lg|h~qaeE1j[j[f6fkjZj[j[ay" src={mockup2}/>
                 </div>
             </div>
         </div>

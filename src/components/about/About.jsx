@@ -17,8 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I´m a Developer and Designer boasting 2 years of significant experience, especially within a software firm
-            where I led the redesign of client application interfaces, skillfully leveraging React and Angular to synchronize design and programming perspectives.
+            With 2 years of significant experience in a software firm, I have led the redesign of client application interfaces, skillfully using React and Angular to bridge design and development perspectives.
           </p>
 
           <a download="" href={CV} className="button button--flex">
