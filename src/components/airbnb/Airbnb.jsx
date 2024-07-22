@@ -14,7 +14,7 @@ const Airbnb = () => {
                 airbnb clone
             </h1>
           </div>
-          <div className="section__subtitle">
+          <div className="section__subtitle side-padding">
             Full Stack Airbnb clone using Next.js, Tailwind CSS, Prisma and MongoDB.
           </div>
           <div className="divider-25"></div>
