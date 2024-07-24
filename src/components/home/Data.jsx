@@ -61,9 +61,9 @@ const Data = () => {
         // Same substring at the start will only be typed out once, initially
         'Frontend Developer',
         1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'UX/UI Designer',
+        'UX/UI Design',
         1000,
-        'Visual Designer',
+        'Visual Design',
         1000
       ]}
       wrapper="span"

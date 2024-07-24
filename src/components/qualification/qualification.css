@@ -17,7 +17,7 @@
 }
 
 .qualification__button:hover {
-    color: #841c16;
+    color: var(--title-color-dark);
 }
 
 .qualification__icon {
