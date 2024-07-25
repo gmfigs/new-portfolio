@@ -8,7 +8,7 @@ const WorkItems = ({ item }) => {
           <>
             <div className="work-align-content">
               <h3 className="work__title">{item.title}</h3>
-              <i className="uil ml-less uil-trademark"></i>
+              <i className="uil ml-less uil-trademark no-bottom"></i>
             </div>
             <a href={item.url} className="work__button">
               View Project
