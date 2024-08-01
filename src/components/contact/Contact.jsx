@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import "./contact.css";
 
-
 const Contact = () => {
   const form = useRef();
 
@@ -11,12 +10,23 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_x1hewh5",
-        "template_2ki8hlo",
+        "service_zz32fte",
+        "template_luwnbff",
         form.current,
-        "vxDcl4UI2jbOQBn6f"
+        "Cp-IRB1qbTAG0JJZd"
       )
-      e.target.reset()
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Email sent successfully!");
+        },
+        (error) => {
+          console.error(error.text);
+          alert("Failed to send email. Please try again.");
+        }
+      );
+
+    e.target.reset();
   };
 
   return (
@@ -35,10 +45,7 @@ const Contact = () => {
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">gm.figs@gmail.com</span>
 
-              <a
-                href="mailto:gm.figs@gmail.com"
-                className="contact__button"
-              >
+              <a href="mailto:gm.figs@gmail.com" className="contact__button">
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -58,7 +65,6 @@ const Contact = () => {
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
-
           </div>
         </div>
 
@@ -73,6 +79,7 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Insert your name"
+                required
               />
             </div>
 
@@ -83,6 +90,7 @@ const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Insert your email"
+                required
               />
             </div>
 
@@ -94,6 +102,7 @@ const Contact = () => {
                 rows="10"
                 className="contact__form-input"
                 placeholder="Write your project"
+                required
               ></textarea>
             </div>
 
