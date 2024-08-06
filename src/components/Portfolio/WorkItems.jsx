@@ -71,6 +71,20 @@ const WorkItems = ({ item }) => {
             </div>
           </>
         );
+        case "Pixelab - UX/UI NFT's Mobile App":
+        return (
+          <>
+            <div className="work-align-content">
+              <h3 className="work__title">{item.title}</h3>
+            </div>
+            <div className="work-text-align-content">
+              <a href={item.url} className="work__button">
+                View Project
+                <i className="bx bx-right-arrow-alt work__button-icon"></i>
+              </a>
+            </div>
+          </>
+        );
         case "Portfolio Template - Code & Design":
         return (
           <>
