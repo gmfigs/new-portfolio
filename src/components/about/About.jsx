@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.png";
-import CV from "../../assets/GF-Resume-A4.pdf";
+import CV from "../../assets/GF-uxdesign.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            With 2 years of significant experience in a software firm, I have led the redesign of client application interfaces, skillfully using React and Angular to bridge design and development perspectives.
+            With <strong>3+ years of significant experience</strong>, including substantial work with a firm specializing in global software solutions for the transportation industry and hands-on expertise in developing both web and mobile applications.
           </p>
 
           <a download="" href={CV} className="button button--flex">

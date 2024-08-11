@@ -8,13 +8,6 @@ import Work8 from "../../assets/work8.png";
 
 export const projectsData = [
   {
-    id: 1,
-    image: Work1,
-    url: "/hoyBank",
-    title: "HoyBank - Frontend Development",
-    category: "web",
-  },
-  {
     id: 2,
     image: Work5,
     url: "/siscog",
@@ -43,10 +36,10 @@ export const projectsData = [
     category: "app",
   },
   {
-    id: 6,
-    image: Work7,
-    url: "/airbnb",
-    title: "Full Stack - Airbnb clone",
+    id: 1,
+    image: Work1,
+    url: "/hoyBank",
+    title: "HoyBank - Frontend Development",
     category: "web",
   },
   {
@@ -54,6 +47,13 @@ export const projectsData = [
     image: Work6,
     url: "/branding",
     title: "Portfolio Template - Code & Design",
+    category: "web",
+  },
+  {
+    id: 6,
+    image: Work7,
+    url: "/airbnb",
+    title: "Full Stack - Airbnb clone",
     category: "web",
   }
 ];

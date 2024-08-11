@@ -3,7 +3,7 @@ import React from "react";
 const Design = () => {
   return (
     <div className="skills__content">
-      <h3 className="skills__title">UX/UI Designer</h3>
+      <h3 className="skills__title">UX/UI Design</h3>
 
       <div className="skills__box">
         <div className="skills__group">
@@ -41,7 +41,7 @@ const Design = () => {
 
             <div>
               <h3 className="skills__name">Wireframing</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Advanced</span>
             </div>
           </div>
 
@@ -50,7 +50,7 @@ const Design = () => {
 
             <div>
               <h3 className="skills__name">Prototyping</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">Advanced</span>
             </div>
           </div>
 
@@ -59,7 +59,7 @@ const Design = () => {
 
             <div>
               <h3 className="skills__name">Adobe XD</h3>
-              <span className="skills__level">Basic</span>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
         </div>

@@ -48,7 +48,7 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-            <div className="qualification__data">
+            <div className="qualification__data right-alignment">
               <div>
                 <h3 className="qualification__title">UX/UI Design Master</h3>
                 <span className="qualification__subtitle">
@@ -84,7 +84,7 @@ const Qualification = () => {
               </div>
             </div>
 
-            <div className="qualification__data">
+            <div className="qualification__data right-alignment">
               <div>
                 <h3 className="qualification__title">IT Geographic</h3>
                 <span className="qualification__subtitle">
@@ -127,14 +127,14 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-            <div className="qualification__data">
+            <div className="qualification__data right-alignment">
               <div>
-                <h3 className="qualification__title">UX/UI Designer</h3>
+                <h3 className="qualification__title ">UX/UI Specialist</h3>
                 <span className="qualification__subtitle">
                   SISCOG SA - Portugal
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2024 - Present
+                  <i className="uil uil-calendar-alt"></i> 2023 - Present
                 </div>
               </div>
 
@@ -163,17 +163,36 @@ const Qualification = () => {
               </div>
             </div>
 
-            <div className="qualification__data">
+            <div className="qualification__data right-alignment">
               <div>
-                <h3 className="qualification__title">Frontend/Designer</h3>
-                <span className="qualification__subtitle">Freelancing</span>
+                <h3 className="qualification__title">UX Designer</h3>
+                <span className="qualification__subtitle">Freelance</span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2024
                 </div>
               </div>
 
               <div>
                 <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Client Experience Analyst</h3>
+                <span className="qualification__subtitle">
+                  Palmares Resort
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                </div>
               </div>
             </div>
           </div>

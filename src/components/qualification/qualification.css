@@ -80,6 +80,10 @@
     transform: translate(6px, -7px);
 }
 
+.right-alignment {
+    text-align: right;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

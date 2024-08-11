@@ -14,85 +14,7 @@ const Services = () => {
   <span className="section__subtitle">What I offer</span>
 
   <div className="services__container container grid">
-    <div className="services__content" onClick={() => toggleTab(1)}>
-      <div>
-        <i className="uil uil-arrow services__icon"></i>
-        <h3 className="services__title">
-          Frontend <br /> Development
-        </h3>
-      </div>
-
-      <span className="services__button">
-        View More
-        <i className="uil uil-arrow-right services__button-icon"></i>
-      </span>
-
-      <div
-        className={
-          toggleState === 1
-            ? "services__modal active-modal"
-            : "services__modal"
-        }
-        onClick={(e) => {
-          if (e.target.classList.contains("services__modal")) {
-            toggleTab(0);
-          }
-        }}
-      >
-        <div className="services__modal-content" onClick={(e) => e.stopPropagation()}>
-          <i
-            onClick={(e) => {
-              e.stopPropagation();
-              toggleTab(0);
-            }}
-            className="uil uil-times services__modal-close"
-          ></i>
-          <div className="align-content">
-            <i className="uil uil-arrow services__icon"></i>
-            <h3 className="services__modal-title">Frontend Development</h3>
-          </div>
-          <p className="services__modal-description">
-            With 2+ years in the tech sector, skills were refined 
-            while working in a software development company.
-          </p>
-
-          <ul className="services__modal-services grid">
-            <li className="services__modal-service">
-              <i className="uil uil-check-circle services__modal-icon"></i>
-              <p className="services__modal-info">
-                Responsive Web Development.
-              </p>
-            </li>
-
-            <li className="services__modal-service">
-              <i className="uil uil-check-circle services__modal-icon"></i>
-              <p className="services__modal-info">Cross-Browser Compatibility.</p>
-            </li>
-
-            <li className="services__modal-service">
-              <i className="uil uil-check-circle services__modal-icon"></i>
-              <p className="services__modal-info">
-                Usage of Frontend Frameworks.
-              </p>
-            </li>
-
-            <li className="services__modal-service">
-              <i className="uil uil-check-circle services__modal-icon"></i>
-              <p className="services__modal-info">
-                Applying styles to enhance the visual appeal and usability.
-              </p>
-            </li>
-
-            <li className="services__modal-service">
-              <i className="uil uil-check-circle services__modal-icon"></i>
-              <p className="services__modal-info">
-                Using tools like Git for collaborative development and code versioning.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    
 
     <div className="services__content" onClick={() => toggleTab(2)}>
       <div>
@@ -251,6 +173,85 @@ const Services = () => {
               <i className="uil uil-check-circle services__modal-icon"></i>
               <p className="services__modal-info">
                 Knowledge of fonts and text layout.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div className="services__content" onClick={() => toggleTab(1)}>
+      <div>
+        <i className="uil uil-arrow services__icon"></i>
+        <h3 className="services__title">
+          Frontend <br /> Development
+        </h3>
+      </div>
+
+      <span className="services__button">
+        View More
+        <i className="uil uil-arrow-right services__button-icon"></i>
+      </span>
+
+      <div
+        className={
+          toggleState === 1
+            ? "services__modal active-modal"
+            : "services__modal"
+        }
+        onClick={(e) => {
+          if (e.target.classList.contains("services__modal")) {
+            toggleTab(0);
+          }
+        }}
+      >
+        <div className="services__modal-content" onClick={(e) => e.stopPropagation()}>
+          <i
+            onClick={(e) => {
+              e.stopPropagation();
+              toggleTab(0);
+            }}
+            className="uil uil-times services__modal-close"
+          ></i>
+          <div className="align-content">
+            <i className="uil uil-arrow services__icon"></i>
+            <h3 className="services__modal-title">Frontend Development</h3>
+          </div>
+          <p className="services__modal-description">
+            With 2+ years in the tech sector, skills were refined 
+            while working in a software development company.
+          </p>
+
+          <ul className="services__modal-services grid">
+            <li className="services__modal-service">
+              <i className="uil uil-check-circle services__modal-icon"></i>
+              <p className="services__modal-info">
+                Responsive Web Development.
+              </p>
+            </li>
+
+            <li className="services__modal-service">
+              <i className="uil uil-check-circle services__modal-icon"></i>
+              <p className="services__modal-info">Cross-Browser Compatibility.</p>
+            </li>
+
+            <li className="services__modal-service">
+              <i className="uil uil-check-circle services__modal-icon"></i>
+              <p className="services__modal-info">
+                Usage of Frontend Frameworks.
+              </p>
+            </li>
+
+            <li className="services__modal-service">
+              <i className="uil uil-check-circle services__modal-icon"></i>
+              <p className="services__modal-info">
+                Applying styles to enhance the visual appeal and usability.
+              </p>
+            </li>
+
+            <li className="services__modal-service">
+              <i className="uil uil-check-circle services__modal-icon"></i>
+              <p className="services__modal-info">
+                Using tools like Git for collaborative development and code versioning.
               </p>
             </li>
           </ul>

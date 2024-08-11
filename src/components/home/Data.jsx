@@ -58,13 +58,12 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle"><TypeAnimation
       sequence={[
-        // Same substring at the start will only be typed out once, initially
-        'Frontend Developer',
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
         'UX/UI Designer',
         1000,
         'Visual Designer',
-        1000
+        1000,
+        'Frontend Developer',
+        1000,
       ]}
       wrapper="span"
       speed={50}
@@ -72,7 +71,7 @@ const Data = () => {
       repeat={Infinity}
     /></h3>
       <p className="home__description">
-        I'm a multi-disciplinary developer and designer based in the South of Portugal, skilled in Frontend Development. Dedicated to crafting visually stunning and user-friendly interfaces.
+        I'm a multi-disciplinary Designer based in the South of Portugal, combining my design expertise with frontend development skills to create visually appealing and intuitive interfaces.
       </p>
 
       <a href="#contact" className="button button--flex">
